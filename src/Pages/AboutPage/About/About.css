@@ -9,20 +9,22 @@
 .about-right img {
   width: 100%;
 }
+/* ====================? */
+/* // */
 @media screen and (max-width: 991px) {
   .about-left {
     width: 100%;
   }
 }
 @media screen and (max-width: 767px) {
-  .about h1 {
+  .about-left h1 {
     font-family: poppins;
     font-weight: 600;
     font-size: 30px;
   }
 }
 @media screen and (max-width: 575px) {
-  .about h1 {
+  .about-left h1 {
     font-family: poppins;
     font-weight: 600;
     font-size: 20px;

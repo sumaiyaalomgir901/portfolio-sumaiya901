@@ -1,0 +1,14 @@
+.projectbody-h1 {
+  font-size: 37px;
+}
+/* ====================? */
+@media screen and (max-width: 767px) {
+  .projectbody-h1 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .projectbody-h1 {
+    font-size: 20px;
+  }
+}

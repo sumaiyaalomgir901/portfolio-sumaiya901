@@ -5,7 +5,7 @@ import "./Skill.css";
 const Skill = () => {
   return (
     <>
-      <Container className="border">
+      <Container>
         <h1
           style={{
             color: "var(--primary-color)",

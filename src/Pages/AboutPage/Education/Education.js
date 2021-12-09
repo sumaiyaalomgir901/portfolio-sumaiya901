@@ -5,7 +5,7 @@ import "./Education.css";
 const Education = () => {
   return (
     <>
-      <Container style={{ marginBottom: "50px" }} className="border mt-5 pt-5">
+      <Container style={{ marginBottom: "50px" }} className="my-5 pt-5">
         <h1
           style={{
             color: "var(--primary-color)",

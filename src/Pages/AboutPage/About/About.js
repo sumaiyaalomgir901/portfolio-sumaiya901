@@ -12,7 +12,7 @@ const About = () => {
   return (
     <>
       <Navigation></Navigation>
-      <Container className="mt-4">
+      <Container className="my-4">
         <Row
           className="d-flex align-items-center justify-content-md-center justify-content-sm-center g-5 pb-5"
           style={{ marginRight: "0px", marginLeft: "0px" }}
