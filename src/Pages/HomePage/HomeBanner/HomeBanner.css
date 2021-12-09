@@ -1,33 +1,84 @@
-.home img {
-  width: 100%;
-}
-/* .home {
+.home {
+  margin-top: -73px;
+  margin-left: 0px;
+  margin-right: 0px;
   display: flex;
+  align-items: center;
 }
-.left-home {
-  width: 55%;
+.home-img {
+  width: 100%;
   height: 100vh;
 }
-.left-home img {
-  width: 100%;
-  height: 100%;
-}
 .right-home {
-  width: 45%;
+  width: 90%;
+  margin: auto;
+  text-align: left;
 }
 .right-home h1 {
-  font-size: 4vw;
   font-family: poppins;
   font-weight: 600;
+  font-size: 40px;
 }
-.right-home p {
-  font-family: Verdana, Tahoma;
-}
+
+a.portfolio-btn,
 .portfolio-btn {
   background-color: var(--primary-color);
   border: none;
-  padding: 5px 15px;
+  padding: 8px 15px;
   border-radius: 7px;
-  color: white;
+  color: rgb(255, 255, 255);
   font-weight: 600;
-} */
+}
+a.portfolio-btn:hover {
+  color: white;
+}
+
+.Typewriter__wrapper {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: poppins;
+}
+@media screen and (max-width: 767px) {
+  .home {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    align-items: center;
+  }
+  .home-img {
+    width: 80%;
+    height: 75vh;
+  }
+  .right-home {
+    width: 80%;
+    margin-top: 25px;
+    text-align: center;
+  }
+  .right-home h1 {
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 30px;
+  }
+  .Typewriter__wrapper {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: poppins;
+  }
+}
+@media screen and (max-width: 575px) {
+  .home-img {
+    width: 100%;
+    height: 75vh;
+  }
+  .right-home h1 {
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .Typewriter__wrapper {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: poppins;
+  }
+}
