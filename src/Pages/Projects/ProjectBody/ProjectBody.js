@@ -88,7 +88,7 @@ const ProjectBody = () => {
                 </Card.Text>
                 <a
                   target="_blank"
-                  href="https://the-doctors-portal-somo.netlify.app/"
+                  href="https://responsive-football-somo.netlify.app/"
                   rel="noreferrer"
                 >
                   <button className="portfolio-btn w-100">Full view</button>
@@ -208,7 +208,7 @@ const ProjectBody = () => {
                 </Card.Text>
                 <a
                   target="_blank"
-                  href="https://the-doctors-portal-somo.netlify.app/"
+                  href="https://hanansumaiya.github.io/lucid/"
                   rel="noreferrer"
                 >
                   <button className="portfolio-btn w-100">Full view</button>
