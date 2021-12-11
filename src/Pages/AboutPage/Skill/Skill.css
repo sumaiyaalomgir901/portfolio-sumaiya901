@@ -1,18 +1,9 @@
-.skill-left {
-  text-align: left;
-}
-.skill-left p {
-  width: 70%;
-}
 .progress {
-  height: 4px;
+  height: 3px;
 }
 .progress-bar {
   background-color: crimson;
 }
 /* ==================================== */
 @media screen and (max-width: 991px) {
-  .skill-left p {
-    width: 100%;
-  }
 }

@@ -8,6 +8,7 @@ import Navigation from "../../../Shared/Navigation/Navigation";
 import Skill from "../Skill/Skill";
 import Education from "../Education/Education";
 import Contact from "../Contact/Contact";
+import Footer from "../../../Shared/Footer/Footer";
 const About = () => {
   return (
     <>
@@ -31,10 +32,12 @@ const About = () => {
               </p>
               <p style={{ color: "var(--text-color)", fontWeight: "500" }}>
                 From my university life, I have started learning programming
-                languages. And I attend take of programming contest. I know
-                HTML, CSS, Bootstrap, Responsive website design with 3 years of
+                languages. And I attend take of programming contest. I learned
+                HTML, CSS, Bootstrap, Responsive website design with 3-years of
                 experience. And also React, firebase, MongoDB, Node JS, Express
-                JS with 1-year experience.
+                JS with 1-year experience. I have completed more than 15
+                projects with responsive. And completed 3/4 full projects both
+                backend and frontend.
               </p>
               <a
                 href={resume}
@@ -55,7 +58,7 @@ const About = () => {
       </Container>
       <Skill></Skill>
       <Education></Education>
-      <Contact></Contact>
+      <Footer></Footer>
     </>
   );
 };

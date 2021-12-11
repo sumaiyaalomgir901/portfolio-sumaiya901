@@ -1,0 +1,12 @@
+.contact {
+  background-image: url("../../../images/OLO2EG0.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 65px 0px;
+}
+
+.contact .contact-btn {
+  background-color: white;
+  font-size: 18px;
+  font-weight: 500;
+}

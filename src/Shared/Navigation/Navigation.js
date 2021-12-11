@@ -1,19 +1,12 @@
 import * as React from "react";
-import { Container, Nav, Navbar, Offcanvas, Button } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Container, Nav, Navbar, Offcanvas } from "react-bootstrap";
+import { Link, Redirect } from "react-router-dom";
 import HomeIcon from "@mui/icons-material/Home";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import AutoAwesomeMotionIcon from "@mui/icons-material/AutoAwesomeMotion";
-// import SvgIcon from "@mui/material/SvgIcon";
-import "./Navigation.css";
+import { HashLink } from "react-router-hash-link";
 
-// function HomeIcon(props) {
-//   return (
-//     <SvgIcon {...props}>
-//       <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />
-//     </SvgIcon>
-//   );
-// }
+import "./Navigation.css";
 
 const Navigation = () => {
   return (
@@ -70,7 +63,12 @@ const Navigation = () => {
                   />
                   Projects
                 </Nav.Link>
-                <button className="mt-3 portfolio-btn">Contact Me</button>
+                <HashLink to="/home#contact-form">
+                  <a href="#contact-form">
+                    {" "}
+                    <button className="mt-3 portfolio-btn">Contact Me</button>
+                  </a>
+                </HashLink>
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>

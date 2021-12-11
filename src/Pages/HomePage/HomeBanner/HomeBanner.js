@@ -4,6 +4,10 @@ import sumaiya from "../../../images/sumaiya.png";
 import { Col, Row } from "react-bootstrap";
 import TypewriterComponent from "typewriter-effect";
 import ArrowCircleRightIcon from "@mui/icons-material/ArrowCircleRight";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 import { Link } from "react-router-dom";
 
@@ -66,6 +70,64 @@ const HomeBanner = () => {
                 .start()
             }
           />
+          <div className="mt-3">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.facebook.com/Alomgirsumaiya"
+            >
+              <FacebookIcon
+                style={{
+                  color: "var(--primary-color)",
+                  width: "20px",
+                  height: "20px",
+                  marginRight: "10px",
+                }}
+              />
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://twitter.com/Alomgirsumaiya"
+            >
+              <TwitterIcon
+                style={{
+                  color: "var(--primary-color)",
+                  width: "20px",
+                  height: "20px",
+                  marginRight: "10px",
+                }}
+              />
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.linkedin.com/in/alomgirsumaiya/"
+            >
+              <LinkedInIcon
+                style={{
+                  color: "var(--primary-color)",
+                  width: "20px",
+                  height: "20px",
+                  marginRight: "10px",
+                }}
+              />
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/hanansumaiya"
+            >
+              <GitHubIcon
+                style={{
+                  color: "var(--primary-color)",
+                  width: "20px",
+                  height: "20px",
+                  marginRight: "10px",
+                }}
+              />
+            </a>
+          </div>
 
           <Link to="/about">
             <button className="portfolio-btn mt-4 ">
