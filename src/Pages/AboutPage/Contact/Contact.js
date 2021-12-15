@@ -15,8 +15,10 @@ const Contact = () => {
       )
       .then((res) => console.log(res))
       .catch((err) => console.log(err));
-    e.target.value = "";
+    const form = document.getElementById("contact-form");
+    form.reset();
   };
+
   return (
     <>
       <div className="contact">
